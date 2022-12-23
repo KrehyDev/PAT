@@ -1,0 +1,94 @@
+@font-face {
+  font-family: Logo;
+  src: url(https://files.smarty.cz/pat/fonts/Aesthetic-Sage-Regular.ttf) format(truetype);
+}
+@font-face {
+  font-family: Web;
+  src: url(https://files.smarty.cz/pat/fonts/Poppins-Regular.ttf) format(truetype);
+}
+
+header {
+  text-align: center;
+}
+header img {
+  width: 10rem;
+  border-radius: 5rem;
+  transition: transform 0.5s;
+}
+header img:active {
+  transform: scale(0.5);
+}
+header h1 {
+  position: absolute;
+  float: left;
+  padding-left: 10rem;
+  text-shadow: #222222;
+  font-family: Logo;
+  font-size: 75px;
+}
+header p {
+  position: absolute;
+  padding-left: 10rem;
+  padding-top: 7rem;
+  font-family: web;
+  font-size: 12px;
+}
+header a {
+  text-decoration: none;
+  color: black;
+}
+#mainmenu {
+  height: 3rem;
+}
+nav ul {
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+nav li {
+  display: inline-block;
+  position: relative;
+}
+
+nav a {
+  display: block;
+  padding: 20px;
+  color: #222222;
+  text-decoration: none;
+  font-family: Web;
+}
+nav ul ul {
+  z-index: 2;
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: 0;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+nav ul ul li {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+li img {
+  width: 25px;
+  border-radius: 1rem;
+}
+#finder {
+  z-index: 1;
+  width: 1080px;
+  height: 77vh;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border-top: 0;
+  border-bottom: 0;
+  margin-top: 3px;
+  text-align: center;
+  font-family: web;
+}

@@ -1,0 +1,46 @@
+  body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50px;
+  }
+  h1 {
+    color: #c02485;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+  }
+  a {
+    display: inline-block;
+    color: #c02485;
+    padding: 5px;
+  }
+  a:hover {
+    color: black;
+  }
+  hr {
+    background-color: #c02485;
+    height: 2px;
+  }
+  img {
+    width: 600px;
+  }
+  hr {
+    background-color: #c02485;
+  }
+  button {
+    color: #fff;
+    background-color: #c02485;
+    display: inline-block;
+    padding: .5rem 1rem;
+    vertical-align:bottom;
+    text-decoration: none;
+    cursor: pointer;
+    box-sizing: none;
+    margin: 1rem;
+    border: none;
+    border-radius: 3rem;
+    font-weight: 20px;
+  }
+  button:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(40%, rgba(0, 0, 0, .05)), to(rgba(0, 0, 0, .1)));
+    background-image:linear-gradient(transparent, rgba(0, 0, 0, .05) 40%, rgba(0, 0, 0, .1))
+  }

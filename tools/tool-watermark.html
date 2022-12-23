@@ -1,0 +1,15 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://files.smarty.cz/pat/css/tools.css">
+</head>
+<body>
+    <form onsubmit="updateLink(); return false;">
+        <input placeholder="Vložte odkaz obrázku" class="link-input" type="text" id="link-input" name="link-input">
+        <input class="vodoznakButt" type="submit" value="Odstranit vodoznak">
+        <button onclick="downloadImage()" class="vodoznakButt">Stáhnout obrázek</button>
+    </form> 
+    <br>
+    <img src="" class="obrazekbezvodoznaku" id="link-output"></img>
+    <script src="https://files.smarty.cz/pat/js/watermark.js"></script>
+</body>
+</html>

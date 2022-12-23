@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://files.smarty.cz/pat/css/dox.css">
+</head>
+<body>
+
+        <h1>Filezilla</h1>
+        <img src="https://files.smarty.cz/PMassTools/images/filezilla/1.png" alt=""><br>
+        <br>
+        <img src="https://files.smarty.cz/PMassTools/images/filezilla/2.png" alt="">
+        <ul style="float: right;">
+            <li><b>Protokol: FTP</b> - File Transfer Protocol</li>
+            <li><b>Hostitel:</b> - 10.230.125.9</li>
+            <li><b>Šifrování</b> - Explicitní FTP Přes TLS</li>
+            <li><b>Způsob přihlašování</b> - Normální</li>
+            <li><b>Uživatelské jméno</b> - SmartyFtp2</li>
+            <li><b>Heslo</b> - <button class="passwordButt" onclick="myFunction()">Zobrazit heslo</button> <p id="hiddenText" style="display:none">YjsuQPMZqV</p></li>
+
+                <script>
+                function myFunction() {
+                  var x = document.getElementById("hiddenText");
+                  if (x.style.display === "none") {
+                    x.style.display = "block";
+                  } else {
+                    x.style.display = "none";
+                  }
+                }
+                </script></li>
+        </ul>
+        <a href="https://dl2.cdn.filezilla-project.org/client/FileZilla_3.62.2_macosx-x86.app.tar.bz2?h=x2NTlSNAL9P6v5kKo6Mmmw&x=1671643701">
+            <button>Stáhnout Filezillu pro Mac</button>
+        </a>
+        <a href="https://download.filezilla-project.org/client/FileZilla_3.62.2_win64_sponsored2-setup.exe">
+            <button>Stáhnout Filezillu pro Windows</button>
+        </a>
+</body>
+</html>

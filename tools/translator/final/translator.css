@@ -1,0 +1,140 @@
+@font-face {
+    font-family: Logo;
+    src: url(https://files.smarty.cz/pat/fonts/Aesthetic-Sage-Regular.ttf) format(truetype);
+}
+@font-face {
+    font-family: Web;
+    src: url(https://files.smarty.cz/pat/fonts/Poppins-Regular.ttf) format(truetype);
+}
+@font-face {
+    font-family: Smarty;
+    src: url(https://files.smarty.cz/pat/fonts/Footsprin-regular.otf) format(opentype);
+}
+
+textarea::placeholder{
+    font-family: web;
+    text-align: center;
+    padding-right: 10px;
+    padding-top: 10%;
+}
+button {
+    font-family: web;
+    text-align: center;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: black;
+    transition: background-color 0.3s ease;
+    box-sizing: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: rgb(150, 0, 150);
+    color: white;
+}
+body {
+    text-align: center;
+}
+
+#ytvideo {
+    width: 720px;
+    height: 440px;
+    border-radius: 1rem;
+}
+#centerimg {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    max-height: 720px;
+    margin: 15px auto;
+    border-radius: 1rem;
+}
+#leftimg {
+    border-radius: 1rem;
+    width: 300px;
+    float: left;
+    margin: 2rem;
+}
+#rightimg {
+    border-radius: 1rem;
+    width: 300px;
+    float: right;
+    margin: 2rem;
+}
+.highlight {
+    background-color: yellow;
+  }
+
+
+#atributy ul {
+    list-style: none;
+    position: absolute;
+    float: left;
+    left: -30px;
+    text-align: left;
+}
+#atributy ul li {
+    position: relative;
+    float: left;
+}
+#atributy ul li ul {
+    position: relative;
+    color: grey;
+    font-weight: 0;
+    text-align: right;
+}
+#atributy ul li ul p {
+    display: inline-block;
+    text-align: right;
+    position: relative;
+    color: black;
+    right: -80px;
+}
+#atributy p {
+    position: absolute;
+    right: 0;
+    text-align: right;
+}
+textarea {
+    width: 30rem;
+    height: 10rem;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    font-family: web;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    resize: none;
+}
+#site {
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+}
+#output {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    width: 720px;
+    max-width: 720px;
+    font-family: Web;
+    text-align: left;
+
+}
+#atributy {
+    display: none;
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    left: 750px;
+    width: 20rem;
+    height: 50rem;
+    max-width: 720px;
+    font-family: Web;
+}
