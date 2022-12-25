@@ -20,6 +20,6 @@ function hideSubmenu(event) {
 }
 
 menuItems.forEach(item => {
-  item.addEventListener('click', showSubmenu);
+  item.addEventListener('mouseover', showSubmenu);
   item.addEventListener('mouseleave', hideSubmenu);
 });
