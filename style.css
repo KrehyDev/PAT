@@ -77,11 +77,12 @@ nav ul ul li {
 }
 li img {
   width: 25px;
+  margin-lef: 10px;
   border-radius: 1rem;
 }
 #finder {
   z-index: 1;
-  width: 1080px;
+  width: 1200px;
   height: 77vh;
   position: absolute;
   left: 50%;
