@@ -1,0 +1,411 @@
+  .sidenav {
+    height: 1200px;
+    width: 230px;
+    position: absolute;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 10px;
+    border-radius: 1rem;
+  }
+  .sidenav h3 {
+    text-decoration: none;
+    color: #c02485;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    border-radius: 1rem;
+  }
+  
+  .sidenav a:hover {
+    color: black;
+    background-color: white;
+  }
+  .main {
+    margin-left: 160px;
+    font-size: 28px;
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {
+      padding-top: 15px;
+    }
+    .sidenav a {
+      font-size: 18px;
+    }
+  }
+
+  #page {
+    position: absolute;
+    background-color: green;
+    width: 75%;
+    height: 700px;
+    display: inline-block;
+  }
+  #output {
+    width: 750px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem;
+}
+#convertButton {
+    color: #fff;
+    background-color: #c02485;
+    display: inline-block;
+    padding: .5rem 1rem;
+    vertical-align:bottom;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: none;
+    margin: 1rem;
+    border: none;
+    border-radius: 3rem;
+}
+#convertButton:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(40%, rgba(0, 0, 0, .05)), to(rgba(0, 0, 0, .1)));
+    background-image:linear-gradient(transparent, rgba(0, 0, 0, .05) 40%, rgba(0, 0, 0, .1))
+}
+#ytvideo {
+    width: 746px;
+    height: 440px;
+    border-radius: 1rem;
+}
+#centerimg {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    max-height: 800px;
+    margin: 15px auto;
+    border-radius: 1rem;
+}
+#leftimg {
+    border-radius: 1rem;
+    width: 300px;
+    float: left;
+    margin: 2rem;
+}
+#rightimg {
+    border-radius: 1rem;
+    width: 300px;
+    float: right;
+    margin: 2rem;
+}
+.highlight {
+    background-color: yellow;
+  }
+ textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 610px;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    border-radius: 5px;
+    margin: 1rem;
+}
+hr {
+    border: 0;
+    height: 1px;
+    width: 730px;
+    background: #e5e5e5;
+    clear:both
+}
+h3 {
+    margin-bottom: .8rem;
+    font-size: 1.3rem;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+a {
+
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.upperbar {
+  border-radius: 1rem;
+  height: 75px;
+  width: 100%;
+  background-color: #c02485;
+}
+.textlogo {
+  padding-left: 30px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  position: absolute;
+}
+.search {
+  position: relative;
+}
+#query {
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  font-size: 16px;
+  resize: none;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  display: inline-block;
+  padding: 15px;
+  width: 330px;
+  position: absolute;
+  height: 50px;
+}
+
+
+.levysloupec {
+  height: 1220px;
+  width: 250px;
+  display: inline-block;
+}
+.vrchnilista {
+  width: 100%;
+  height: 100px;
+}
+#test {
+  background-color: #c02485;
+}
+.site {
+  position: absolute;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+table.password {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #c02485;
+  border-style: solid;
+  color: #000000;
+}
+
+table.password td, table.password th {
+  border-width: 2px;
+  border-color: #c02485;
+  border-style: solid;
+  padding: 3px;
+  width: 250px;
+}
+
+table.password thead {
+  background-color: #c02485;
+  color: white;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  width: 20%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.submenu {
+  display: none;
+}
+#link-output {
+  width: 1000px;
+}
+.vodoznakButt {
+  color: #fff;
+  background-color: #c02485;
+  display: inline-block;
+  padding: .5rem 1rem;
+  vertical-align:bottom;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: none;
+  margin: 1rem;
+  border: none;
+  border-radius: 3rem;
+}
+.vodoznakButt:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(40%, rgba(0, 0, 0, .05)), to(rgba(0, 0, 0, .1)));
+  background-image:linear-gradient(transparent, rgba(0, 0, 0, .05) 40%, rgba(0, 0, 0, .1))
+}
+.link-input {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 610px;
+  height: 50px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  border-radius: 5px;
+  margin: 1rem;
+}
+.weblogo {
+  background-color: white;
+  display: inline-block;
+  width: 75px;
+  border-radius: 3rem;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 350px;
+}
+
+#searchbutt {
+  color: #fff;
+  background-color: black;
+  display: inline-block;
+  vertical-align:bottom;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: none;
+  border: none;
+  border-radius: 1rem;
+  height: 40px;
+  width: 60px;
+  position: relative;
+  top: 17px;
+  right: 15px;
+}
+.tlacitka {
+  float: right;
+}
+#searchbutt:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(40%, rgba(0, 0, 0, .05)), to(rgba(0, 0, 0, .1)));
+  background-image:linear-gradient(transparent, rgba(0, 0, 0, .05) 40%, rgba(0, 0, 0, .1))
+}
+
+.inputsearch {
+  float: right;
+  position: relative;
+  right: 550px;
+  top: 12px;
+}
+.imgintext {
+  width: 500px;
+  padding: 20px;
+}
+.siteDocs {
+  position: absolute;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.siteDocs h1 {
+  color: #c02485;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+.siteDocs a {
+  display: inline-block;
+  color: #c02485;
+  padding: 5px;
+}
+.siteDocs a:hover {
+  color: purple;
+  font-weight: bold;
+}
+.siteDocs hr {
+  background-color: #c02485;
+}
+.downloadButt {
+  color: #fff;
+  background-color: #c02485;
+  display: inline-block;
+  padding: .5rem 1rem;
+  vertical-align:bottom;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: none; 
+  margin: 1rem;
+  border: none;
+  border-radius: 3rem;
+}
+.downloadButt:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(40%, rgba(0, 0, 0, .05)), to(rgba(0, 0, 0, .1)));
+  background-image:linear-gradient(transparent, rgba(0, 0, 0, .05) 40%, rgba(0, 0, 0, .1))
+}
+.passwordButt {
+  color: #fff;
+  background-color: #c02485;
+  display: inline-block;
+  padding: .5rem 1rem;
+  vertical-align:bottom;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: none;
+  margin: 1rem;
+  border: none;
+  border-radius: 3rem;
+  position: relative;
+  top: 20px;
+}
+.passwordButt:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(40%, rgba(0, 0, 0, .05)), to(rgba(0, 0, 0, .1)));
+  background-image:linear-gradient(transparent, rgba(0, 0, 0, .05) 40%, rgba(0, 0, 0, .1))
+}
+form {
+  max-width: 500px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+  margin-top: 1rem;
+}
